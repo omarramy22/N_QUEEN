@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool solveNQueen(int** board, int N, int col) {
     if (col >= N) 
         return true;

@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool isValid(int** board, int row, int col, int N) {
     for (int i = 0; i < col; i++) 
         if (board[row][i])

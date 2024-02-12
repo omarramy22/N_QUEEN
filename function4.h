@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool checkSolution(int N) {
     int** board = new int* [N];
     for (int i = 0; i < N; i++) {
